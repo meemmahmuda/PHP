@@ -204,8 +204,67 @@ switch(true){
 
 
 
+// Loop
+echo"<br>";
+for ($i=1; $i<10; $i++) { 
+    echo $i;
+}
+echo"<br>";
+
+
+for ($j=0; $j<$i; $j++) { 
+    echo"*";
+}
+echo"<br>";
+
+$i =0;
+while ($i < 10) {
+    $i++;
+    echo $i.PHP_EOL;
+}
+echo PHP_EOL;
+
+
+echo "<br>";
+echo "Go To";
+$i =0;
+a: $i++;
+echo $i.PHP_EOL;
+if($i<10) goto a;
+echo "<br>";
+
+
+for ($i=10; $i > 0 ; $i--) { 
+    echo $i;
+    echo PHP_EOL;
+}
+echo "<br>";
+
+for ($i=10; $i > 0 ; $i--) { 
+    echo $i.":".(10-$i);
+    echo PHP_EOL;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ?>
 
 
 
+ 
